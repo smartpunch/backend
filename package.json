@@ -1,0 +1,38 @@
+{
+  "name": "anno-webapi",
+  "version": "1.0.0",
+  "description": "Annotation webapi backend project",
+  "main": "bin/www",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "connect-pause": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "python-shell": "^1.0.7",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www --host 192.168.137.119"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/tobilab/anno-api-webserver.git"
+  },
+  "author": "Tobias Wagner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/tobilab/anno-api-webserver/issues"
+  },
+  "homepage": "https://gitlab.com/tobilab/anno-api-webserver#README"
+}
