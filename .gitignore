@@ -1,0 +1,8 @@
+node_modules/*
+launch.json
+config/secrets.js
+config/database.js
+config/stats_data_pathes.js
+config/pythonconfig.js
+python_scripts/*
+/.vscode/settings.json
