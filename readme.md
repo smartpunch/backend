@@ -168,8 +168,11 @@ __Copy the content below in the `punch_stats.json` AND the `clear_punch_stats` f
     "relativeAccuracy": 0
 }
 ```
+### 2. Install the module dependencies
+In the project root run via the cli the command below to install all dependencies into the node_modules folder:
+```npm i```
 
-### 2. Start the server
+### 3. Start the server
 __First: The MongoDB database server has to run to start the webserver. So please make shure to start your MongoDB database server first.__<br>
 After the database server is running, in the main project root enter the following line in the cli and press enter to start the server:
 ```
