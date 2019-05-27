@@ -4,5 +4,6 @@ config/secrets.js
 config/database.js
 config/stats_data_pathes.js
 config/pythonconfig.js
-python_scripts/*
+python_scripts/data/*
 /.vscode/settings.json
+python_scripts/models/*
