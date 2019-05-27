@@ -13,12 +13,13 @@ var app = express();
 const cors = require("cors");
 app.use(cors());
 
+mongoose.Promise = require('bluebird');
+
 /**
  * Try to connect to database
+ * Uncomment the block below if you dont have
+ * a database server running at the moment
  */
-
-mongoose.Promise = require('bluebird');
-/*
 mongoose.connect(config.database, { promiseLibrary: require('bluebird') })
   .then(() => console.log('connection succesful'))
   .catch((err) => {
@@ -27,7 +28,6 @@ mongoose.connect(config.database, { promiseLibrary: require('bluebird') })
     process.exit(0);
   }
   );
-*/
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ 'extended': 'true' }));
